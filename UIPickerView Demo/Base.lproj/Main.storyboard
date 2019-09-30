@@ -18,7 +18,7 @@
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3VB-Ig-T2G">
                                 <rect key="frame" x="0.0" y="451" width="336" height="216"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="216" id="A8w-PE-TZk"/>
+                                    <constraint firstAttribute="height" constant="216" id="53W-7t-inC"/>
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx6-Yh-i71">
@@ -33,19 +33,23 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="3VB-Ig-T2G" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="80s-w7-rz4"/>
+                            <constraint firstItem="3VB-Ig-T2G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fg8-g4-DHM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zx6-Yh-i71" secondAttribute="trailing" constant="20" id="KXw-TS-lCd"/>
-                            <constraint firstItem="3VB-Ig-T2G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LVt-cu-ZA6"/>
                             <constraint firstItem="zx6-Yh-i71" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZgN-7f-uCD"/>
-                            <constraint firstItem="3VB-Ig-T2G" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="chc-E3-Vg5"/>
-                            <constraint firstItem="3VB-Ig-T2G" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kck-wd-0Jp"/>
+                            <constraint firstItem="3VB-Ig-T2G" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jO6-3C-4lG"/>
                             <constraint firstItem="zx6-Yh-i71" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="72" id="uRA-Li-Cif"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="3VB-Ig-T2G" id="B4C-he-ZYZ"/>
+                        <outlet property="textLabel" destination="zx6-Yh-i71" id="iRW-el-wYJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+            <point key="canvasLocation" x="130.40000000000001" y="138.0809595202399"/>
         </scene>
     </scenes>
 </document>
