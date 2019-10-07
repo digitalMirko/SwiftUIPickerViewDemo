@@ -1,6 +1,8 @@
 # SwiftUIPickerViewDemo
 Swift - Swift UIPickerView Demo - Demo 20 of 30
 
+App created in Xcode 11.0 using Swift 5.0, iOS Deployment Target 13.0 and tested on a iPhone Pro Max Emulator
+
 In this demo app we demonstrate how to code a Swift UIPicker View with various results displayed on label rite above.
 
 There are so many interesting things within swift. This demo shows one way to setup the UIPicker View on the bottom of 
@@ -11,7 +13,7 @@ through the assorted colors in the UIPicker they will be displayed in the label 
 Coming soon:<br>
 Details and the screen cap images of the app in use can be found on <a href="http://digitalmirko.com/iOSApps.html">Digital Mirko</a>.
 
-Screen Cap on a iPhone Xr device:(shown below)</br>
+Screen Cap on a iPhone 11 Pro Max device:(shown below)</br>
 (Top Left image) App started. Default color - white.<br>
 (Top Middle Image) Picker view moved to another color (Orange) which is shown up above in a label.<br>
 (Top Right image) Picker view moved to another color (Magenta) which is shown up above in a label.<br>
